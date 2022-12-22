@@ -1,8 +1,8 @@
-cd C:\Users\%USERNAME%\AppData\LocalLow\IronGate\Valheim
+cd C:\Users\%USERNAME%\AppData\LocalLow\IronGate\Valheim\worlds_local
 
-IF EXIST worlds_local\Vlheim_Servu\community.fwl (
-	IF EXIST worlds_local\Vlheim_Servu\community.db (
-		move /y worlds_local\Vlheim_Servu\community* worlds_local
+IF EXIST Vlheim_Servu\community.fwl (
+	IF EXIST Vlheim_Servu\community.db (
+		move /y Vlheim_Servu\community*
 		echo Done!))
 ELSE(
 	echo Server files doesn't exist!)
